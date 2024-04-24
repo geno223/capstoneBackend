@@ -2,7 +2,7 @@
 ### **By:** Geno Jimenez
 + An application where users can purchase
 apparel using a shopping cart either through User or Guest access.
-## **Frontend (React App/Vite):**
+## **Frontend (React App):**
 
 [Deployed]
 
