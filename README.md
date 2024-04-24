@@ -4,12 +4,12 @@
 apparel using a shopping cart either through User or Guest access.
 ## **Frontend (React App):**
 
-[Deployed]
+[Deployed](https://main--elaborate-toffee-a3ddd2.netlify.app/)
 
 #### Libraries:
 - React
 - React Router
-- Vite
+- SCSS
 ### React Router Routes:
 - Home Page: "/"
   - Display items for sale and link to Mens, Womens & Kidz apparel.
@@ -36,7 +36,7 @@ apparel using a shopping cart either through User or Guest access.
 
 
  ## **Backend (Express):**
- [Deployed]
+ [Deployed](https://capstonebackend-dbb9.onrender.com)
 ###  Libraries
 
 - Mongo DB
