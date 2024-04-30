@@ -8,6 +8,7 @@ const ApparelSchema = new mongoose.Schema({
     bottoms:String,
     image: String,
     price: Number,
+    username: String,
 });
 
 const Apparel = mongoose.model('Apparel', ApparelSchema);
