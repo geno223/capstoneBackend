@@ -15,6 +15,18 @@ router.get('/', async (req, res) => {
         res.status(400).json(err);
     }
 })
+router.get('/mens', async (req, res) => {
+    try {
+        const apparel= await Apparel.find({})
+
+        console.log(apparel, 'Stopped right her')
+        
+    res.json(apparel)
+    
+    }catch(err){
+        res.status(400).json(err);
+    }
+})
 router.post('/', async (req, res) => {
     try {
         const apparel= await Apparel.create(req.body)

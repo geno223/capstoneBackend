@@ -56,6 +56,7 @@ app.use(express.json())
 
 
 //ROUTES
+
 //signing up 
 app.post("/signup", async (req, res) => {
     try {
@@ -95,7 +96,7 @@ app.post("/login", async (req, res) => {
     res.json({ token })
   
   })
-app.use('/apparel', authCheck, ApparelRouter)
+app.use('/apparel',  ApparelRouter)
 
 
 
